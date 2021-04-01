@@ -4253,6 +4253,16 @@ html { overflow: -moz-scrollbars-vertical; overflow-y: scroll; }
 
 .mobile-test::-webkit-scrollbar { display: none; }
 
+.mobile-test .breadcrumbs-wrapper .right-arrow { display: none; }
+
+.mobile-test .breadcrumb-location { display: none !important; }
+
+.mobile-test .breadcrumb-link { display: none !important; }
+
+.mobile-test .breadcrumb-home-wrapper .breadcrumb-link { display: block !important; }
+
+.mobile-test .breadcrumbs-wrapper .arrow { display: none !important; }
+
 .mobile-test .page-header { padding-top: 4rem; padding-bottom: 3rem; }
 
 .mobile-test .page-header .page-header-title { font-size: 2rem; }

@@ -29,6 +29,22 @@
         display: none;
     }
     
+    // Breadcrumbs
+    .breadcrumbs-wrapper .right-arrow {
+        display: none;
+    }
+    .breadcrumb-location {
+        display: none !important;
+    }
+    .breadcrumb-link {
+        display: none !important;
+    }
+    .breadcrumb-home-wrapper .breadcrumb-link {
+        display: block !important;
+    }
+    .breadcrumbs-wrapper .arrow {
+        display: none !important;
+    }
     
     // INFO AND TOPIC PAGES
     .page-header {

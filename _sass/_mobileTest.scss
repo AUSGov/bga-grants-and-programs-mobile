@@ -33,17 +33,14 @@
     .breadcrumbs-wrapper .right-arrow {
         display: none;
     }
-    .breadcrumb-location {
+    .breadcrumb-home-wrapper-location {
         display: none !important;
     }
-    .breadcrumb-link {
-        display: none !important;
+    .breadcrumb-home-wrapper {
+        display: none;
     }
-    .breadcrumb-home-wrapper .breadcrumb-link {
-        display: block !important;
-    }
-    .breadcrumbs-wrapper .arrow {
-        display: none !important;
+    .breadcrumb-home-wrapper.last {
+        display: block;
     }
     
     // INFO AND TOPIC PAGES
@@ -201,15 +198,18 @@
                     }
                 }
 
-                .standardcta-button-wrapper {
-                    margin: 0;
-                }
+               
 
                 form {
                     text-align: left;
 
                     .form-buttons {
                         padding: 0 15px 32px 15px;
+                        
+                         .standardcta-button-wrapper {
+                            margin: 0 !important;
+
+                        }
                     }
                 }
             }
@@ -1806,11 +1806,25 @@
         }
     }
 
+    /* MENU */
     .collapse.open {
         display: block !important;
     }
     .navbar-nav {
         display: block;
+    }
+    #ChangeToggle {
+        height: 40px;
+        width: 40px;
+        background: url(../assets/Icon-menu.svg) no-repeat;
+        background-size: 30px 30px;
+        background-position: center center;
+        
+        &.close {
+            background: url(../assets/Icon-cross-FFFFFF.svg) no-repeat;
+            background-size: 25px 25px;
+            background-position: center top 6px;
+        }
     }
     #navbar-close {
         display: none;

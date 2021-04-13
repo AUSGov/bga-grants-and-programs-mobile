@@ -422,6 +422,9 @@ $(document).ready(function () {
     $('.finder_section').hide(); 
     
     switch (current_section) {
+        case "h":
+            $('#section_0').show();
+            break; 
         case "1":
             $('#section_1').show();
             break;
@@ -447,7 +450,7 @@ $(document).ready(function () {
             $('#section_8').show();
             break;
         default:
-            $('#section_0').show();
+            $('#section_loading').show();
     }
 
 

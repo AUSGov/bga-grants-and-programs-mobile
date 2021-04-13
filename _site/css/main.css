@@ -3950,6 +3950,8 @@ html { overflow: -moz-scrollbars-vertical; overflow-y: scroll; }
 
 .mobile-test .top-of-page { padding-top: 0; }
 
+.mobile-test .top-of-page.loading { text-align: center; margin: 20px 40px 40px 40px; font-weight: 400; }
+
 .mobile-test #section_0, .mobile-test #section_1, .mobile-test #section_2, .mobile-test #section_3, .mobile-test #section_4, .mobile-test #section_5, .mobile-test #section_6, .mobile-test #section_7, .mobile-test #section_8, .mobile-test #section_9 { display: none; }
 
 .mobile-test #section_0 { display: block; }
